@@ -15,7 +15,7 @@ loginForm.addEventListener('submit', function (e) {
 			.post('auth/login', data)
 			.then(res => {
 				localStorage.setItem(TOKEN, res.data.token);
-				location.href = '../dashboard.html';
+				location.href = '../portfolio.html';
 			})
 			.catch(err => {
 				alert('Username yoki password xato !');
