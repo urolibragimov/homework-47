@@ -1,0 +1,29 @@
+#login-form {
+	max-width: 400px;
+	width: 100%;
+}
+
+tr th {
+	white-space: nowrap !important;
+}
+
+@media (min-width: 100px) {
+	:root {
+		font-size: 13px;
+	}
+}
+@media (min-width: 576px) {
+	:root {
+		font-size: 14px;
+	}
+}
+@media (min-width: 768px) {
+	:root {
+		font-size: 15px;
+	}
+}
+@media (min-width: 992px) {
+	:root {
+		font-size: 16px !important;
+	}
+}
